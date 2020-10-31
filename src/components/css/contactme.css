@@ -1,0 +1,17 @@
+.link-icons img {
+    height: 50px;
+}
+
+.link-icons {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.link-icons p {
+    font-size: small;
+}
+
+.meandkendal {
+    height: 175px;
+}
