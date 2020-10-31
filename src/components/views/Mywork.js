@@ -14,8 +14,16 @@ export const Mywork = (props) => {
                 <p className="t-r">My Work</p>
             </div>
             <div className="box">
+                <h2>Info</h2>
+                <hr className="mt-1 mb-1" />
+                <p>
+                    Links to the projects below will be up sortly so that you
+                    will be able to view the projects themselves
+                </p>
+            </div>
+            <div className="box">
                 <h2>Journey Journal</h2>
-                <hr />
+                <hr className="mt-1 mb-1" />
                 <p>
                     Sometimes it is so hard to keep track of where you have come
                     from while you are in the middle of it. Journey Journal will
@@ -25,7 +33,7 @@ export const Mywork = (props) => {
             </div>
             <div className="box">
                 <h2>COACH</h2>
-                <hr />
+                <hr className="mt-1 mb-1" />
                 <p>
                     Need suport to keep motivated to stay healthy? With COACH
                     you can use your friends and family to meet this need. With
@@ -36,7 +44,7 @@ export const Mywork = (props) => {
             </div>
             <div className="box">
                 <h2>TAZKR</h2>
-                <hr />
+                <hr className="mt-1 mb-1" />
                 <p>
                     A Trello style project manager that is designed to help keep
                     track of what tasks in a project are active and what tasks
