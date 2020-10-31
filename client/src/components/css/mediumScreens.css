@@ -1,0 +1,27 @@
+@media screen and (min-width:700px){
+    h1 {
+        color: var(--color4);
+    }
+    .wrapper{
+        margin-top: 10%;
+    }
+    .content{
+        flex-flow: row wrap;
+        margin: 2rem;
+        padding: 1rem;
+        background: white;
+        border-radius: 2rem;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .box + .box {
+        width: 50%;
+        flex-grow: 1;
+    }
+    .meandkendal{
+        width: 200px;
+    }
+}
