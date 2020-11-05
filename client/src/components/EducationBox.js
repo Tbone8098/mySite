@@ -12,7 +12,7 @@ export const EducationBox = (props) => {
                             <img
                                 className="card_img"
                                 src={props.photo}
-                                alt="University of Washington"
+                                alt={props.photoDesc}
                             />
                         </div>
                     </div>
