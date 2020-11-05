@@ -22,3 +22,13 @@
     border-radius: 20px;
     border: 2px solid black;
 }
+
+@media screen and (max-width: 800px){
+    .about_me_inner_container{
+        display: flex;
+        flex-flow: column-reverse;
+    }
+    .about_me_content{
+        width: 85%;
+    }
+}
