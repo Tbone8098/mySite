@@ -4,14 +4,17 @@ import "./components/css/utilities.css";
 
 import { NavBar } from "./components/views/NavBar";
 import { Main } from "./components/views/Main";
+import { Router } from "@reach/router";
+import { Contactme } from "./components/views/Contactme";
 
 function App() {
     return (
         <div className="App">
-            <div className="container-fluid">
-                <NavBar />
-                <Main />
-            </div>
+            <NavBar />
+            <Router>
+                <Main path="/" />
+                <Contactme path="/contactme" />
+            </Router>
         </div>
     );
 }

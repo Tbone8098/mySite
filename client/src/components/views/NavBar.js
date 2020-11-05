@@ -1,8 +1,12 @@
 import React from "react";
+import { Link } from "@reach/router";
 
 export const NavBar = () => {
     return (
-        <div className="NavBar d-flex justify-content-end pr-5 pt-2">
+        <div className="NavBar d-flex justify-content-between pr-5 pt-2">
+            <Link to="/" className="tYellow pl-3">
+                Home
+            </Link>
             <ul className="d-flex no-style">
                 <li className="pl-2 tYellow">
                     <a
@@ -14,7 +18,11 @@ export const NavBar = () => {
                     </a>
                 </li>
                 <li className="pl-2 tYellow">|</li>
-                <li className="pl-2 tYellow">My Blog</li>
+                <li>
+                    <Link className="pl-2 tYellow" to="contactme">
+                        Contact me
+                    </Link>
+                </li>
             </ul>
         </div>
     );

@@ -8,7 +8,7 @@ import { TechnicalProjects } from "./TechnicalProjects";
 
 export const Main = () => {
     return (
-        <div>
+        <div className="container-fluid">
             <TechSkills />
             <Education />
             <TechnicalProjects />
