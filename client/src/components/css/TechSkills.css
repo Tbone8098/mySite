@@ -1,0 +1,27 @@
+.tech_skills_container {
+    margin-top: 50px;
+    border-bottom: 5px solid var(--color3);
+}
+
+.tech_skills_container li {
+    font-size: 150%;
+}
+
+.tech_icons {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1rem 2rem 1rem 0 ;
+    background: var(--color5);
+    border-top: 3px solid black;
+}
+
+.tech_icon {
+    margin-left: 0.5rem;
+}
+
+.tech_skill_title {
+    margin-bottom: 1rem;
+    border-bottom: 3px solid black;
+    background: var(--color5);
+
+}

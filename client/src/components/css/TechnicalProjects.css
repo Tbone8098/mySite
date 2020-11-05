@@ -1,11 +1,14 @@
 .technical_projects_container{
     margin-top: 2rem;
     background-image: url("../img/background.png");
+    border-top: 5px solid var(--color3);
+    border-bottom: 5px solid var(--color3);
 }
 
 .tech-box {
     margin: auto;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     align-items: center;
     width: 90%;
     background: white;

@@ -3,7 +3,7 @@ import "../css/TechnicalProjects.css";
 
 export const TechnicalProjects = () => {
     return (
-        <div className="technical_projects_container Yborder">
+        <div className="technical_projects_container row">
             <div className="row">
                 <div className="title pl-5 tYellow">
                     <h1>Technical Projects</h1>

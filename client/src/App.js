@@ -1,7 +1,7 @@
 import "./App.css";
 import "./components/css/NavBar.css";
 import "./components/css/utilities.css";
-import { Router } from "@reach/router";
+
 import { NavBar } from "./components/views/NavBar";
 import { Main } from "./components/views/Main";
 

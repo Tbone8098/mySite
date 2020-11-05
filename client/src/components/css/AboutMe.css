@@ -1,0 +1,24 @@
+.about_me_container {
+    margin-top: 3rem;
+    padding: 1rem 0;
+    background: linear-gradient(0deg, var(--color1) 0%, var(--color2) 100%);
+}
+
+.about_me_inner_container {
+    display: flex;
+    justify-content: center;
+}
+
+.about_me_content {
+    width: 70%;
+    padding: 2rem;
+    background: white;
+}
+
+.about_me_img {
+    width: 70%;
+    max-width: 400px;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    border: 2px solid black;
+}

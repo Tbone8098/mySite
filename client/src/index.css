@@ -20,6 +20,8 @@
   --font4: 'Quicksand', sans-serif;
 }
 
+
+
 h1 {
   font-family: var(--font1);
   font-size: 250%;
@@ -30,7 +32,12 @@ h2 {
   font-size: 28px;
 }
 
-.App{
+body{
   min-height: 100vh;
   background: linear-gradient(0deg, var(--color2) 0%, var(--color1) 65%);
+  /* padding-bottom: 5rem; */
+}
+
+html {
+  width: 100%;
 }
