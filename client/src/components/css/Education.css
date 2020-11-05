@@ -1,0 +1,15 @@
+.card_img {
+    display: flex;
+    float: left;
+    width: 150px;
+}
+
+.card_content {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0 1rem;
+}
+
+.card_content p {
+    display: inline;
+}

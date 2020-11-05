@@ -1,0 +1,38 @@
+/* Lists */
+.no-style {
+    list-style-type: none;
+}
+
+/* Font Colors */
+.tDark {
+    color: var(--color1);
+}
+.tBlue{
+    color: var(--color2);
+}
+.tYellow {
+    color: var(--color3);
+}
+.tOrange {
+    color: var(--color4);
+}
+.tRed {
+    color: var(--color5);
+}
+
+/* Background Colors */
+.bDark {
+    background: var(--color1);
+}
+.bBlue{
+    background: var(--color2);
+}
+.bYellow {
+    background: var(--color3);
+}
+.bOrange {
+    background: var(--color4);
+}
+.bRed {
+    background: var(--color5);
+}
