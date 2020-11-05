@@ -22,3 +22,25 @@ li {
     font-family: var(--font4);
     font-weight: bold;
 }
+
+.label {
+    display: flex;
+    align-items: center;
+    text-orientation: upright;
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
+    max-height: min-content;
+    color: var(--color3);
+}
+
+/* @media screen and (max-width: 800px){
+    .label {
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        text-orientation: upright;
+        writing-mode: horizontal-tb;
+        max-height: min-content;
+        color: var(--color3);
+    }
+} */

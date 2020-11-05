@@ -1,23 +1,14 @@
 import React from "react";
-import { useSpring, animated } from "react-spring";
 import "../css/AboutMe.css";
 import hiking from "../img/hiking.png";
 
 export const AboutMe = () => {
-    const props = useSpring({
-        from: { opacity: 0 },
-        to: { opacity: 1 },
-    });
     return (
         <div className="about_me_container Yborder">
-            <div className="row about_me_inner_container">
-                <animated.div style={props} className="title col-lg-4">
-                    <h1>About me</h1>
-                    <img className="about_me_img" src={hiking} alt="" />
-                </animated.div>
+            <div className="row about_me_inner_container d-flex align-items-center">
                 <div className="about_me_content col-lg-7 Yborder">
                     <p>
-                        As of October 23, 2020 I w ill have graduated from a
+                        As of October 23, 2020 I will have graduated from a
                         coding bootcamp called CodingDojo in Bellevue, WA. In
                         this program we focused on web development and covered 3
                         full stacks: Django with Python and a SQLight db, MERN,
@@ -39,6 +30,12 @@ export const AboutMe = () => {
                         with a variety of personalities and despite cultural
                         differences.
                     </p>
+                </div>
+                <div className="col-lg-3">
+                    <img className="about_me_img" src={hiking} alt="" />
+                </div>
+                <div className="label col-lg-1">
+                    <h1>My Story</h1>
                 </div>
             </div>
         </div>

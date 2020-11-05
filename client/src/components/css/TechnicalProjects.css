@@ -1,5 +1,5 @@
 .technical_projects_container{
-    margin-top: 2rem;
+    padding-top: 1rem;
     background-image: url("../img/background.png");
     border-top: 5px solid var(--color3);
     border-bottom: 5px solid var(--color3);
