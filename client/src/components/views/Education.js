@@ -37,6 +37,7 @@ export const Education = () => {
                 <animated.div style={card_props} className="row card-row">
                     <EducationBox
                         photo={UW}
+                        photoDesc={"University of Washington"}
                         title={"University of Washington"}
                         attended={"Nov 2020 - March 2021"}
                         location={"Seattle, WA"}
@@ -45,6 +46,7 @@ export const Education = () => {
                     />
                     <EducationBox
                         photo={CodingDojo}
+                        photoDesc={"Coding Dojo"}
                         title={"Coding Dojo"}
                         attended={"July 2020 - Oct 2020"}
                         location={"Bellevue, WA"}
@@ -53,6 +55,7 @@ export const Education = () => {
                     />
                     <EducationBox
                         photo={Corban}
+                        photoDesc={"Corban University"}
                         title={"Corban University"}
                         attended={"July 2014 - May 2017"}
                         location={"Jakarta, Indonesia"}
@@ -61,6 +64,7 @@ export const Education = () => {
                     />
                     <EducationBox
                         photo={UPH}
+                        photoDesc={"Universitas Pelita Harapan"}
                         title={"Universitas Pelita Harapan"}
                         attended={"July 2014 - May 2017"}
                         location={"Jakarta, Indonesia"}
