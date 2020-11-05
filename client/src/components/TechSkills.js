@@ -27,7 +27,7 @@ export const TechSkills = () => {
         <animated.div style={props} className="bBlue row tech_skills_container">
             <div className="col">
                 <div className="tech_skill_title row px-5 d-flex justify-content-between align-items-center">
-                    <h1>Tyler Thibault</h1>
+                    <h1 className="tYellow">Tyler Thibault</h1>
                     <h2 className="tYellow">Technical Skills</h2>
                 </div>
                 <div className="row align-items-center">
