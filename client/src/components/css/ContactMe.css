@@ -1,0 +1,14 @@
+.contact_me_container {
+    position: relative;
+    top: 53px;
+    display: flex;
+    justify-content: center;
+}
+.contact_me_box {
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 70%;
+    background: var(--color2);
+    border-radius: 20px;
+    border: 3px solid var(--color3);
+}
